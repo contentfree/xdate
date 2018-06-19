@@ -395,7 +395,7 @@ XDate.parsers = [
 
 
 XDate.parse = function(str) {
-	return +XDate(''+str);
+	return XDate(''+str).getTime();
 };
 
 
